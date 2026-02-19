@@ -3,8 +3,6 @@ ML algorithms from scratch. From gradients to transformers, learn the math with 
 
 ## Numpy Functions
 
-
-
 ### simple functions
 
 ```python
