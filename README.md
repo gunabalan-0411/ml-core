@@ -3,6 +3,8 @@ ML algorithms from scratch. From gradients to transformers, learn the math with 
 
 ## Numpy Functions
 
+
+
 ### simple functions
 
 ```python
@@ -28,4 +30,18 @@ $ f(x) = \frac{1}{1 + e^{-x}} $
 
 
 ## Linear Algebra
+
+
+## Optimization
+
+```python
+
+# Calculating gradients in logistic regression
+dw = (X.T @ errors ) / n_samples # how much each feature contribute to erros
+db = np.sum(errors) / n_samples # average error as bias is global for all features
+# updating weights and bias
+w -= lr * dw
+b -= lr * db
+
+```
 
