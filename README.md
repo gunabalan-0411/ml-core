@@ -13,19 +13,21 @@ c = a @ b
 # find length
 print(a.shape[1], a.shape[0]) # here i represents items num
 # Transpose
-return a.T 
+return a.T # check with matrix[0] size == matrix2 size
 np.transpose(a)
 # Exponential
 np.exp(val)
 ```
 
 ## Activation Function
-
 ### Sigmoid Function
 
 Formula
-$ f(x) = \frac{1}{1 + e^{-x}} $
+### Logistic (Sigmoid) Function
 
+[
+f(x) = \frac{1}{1 + e^{-x}}
+]
 
 ## Linear Algebra
 
