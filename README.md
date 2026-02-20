@@ -17,6 +17,10 @@ return a.T # check with matrix[0] size == matrix2 size
 np.transpose(a)
 # Exponential
 np.exp(val)
+# Aggregate function
+np_array.mean(axis = 1)
+# Empty np array
+ np.full((N, L), pad_value)
 ```
 
 ## Activation Function
