@@ -29,6 +29,25 @@ $ f(x) = \frac{1}{1 + e^{-x}} $
 
 ## Linear Algebra
 
+### Eigen vector and Eigen values
+
+Eigenvalue: The factor by which a matrix stretches an eigenvector without changing its direction.
+
+$ Av=λv $
+
+* v = eigenvector
+* λ (lambda) = eigenvalue
+
+* Meaning: The matrix scales the vector without changing its direction.
+* Intuition: Think of pressing a rubber sheet.
+    - Most arrows on the sheet: rotate, change direction
+    - But some arrows: stay pointing the same way, just stretch or shrink
+
+* Those arrows are eigenvectors.
+* The stretch amount is the eigenvalue.
+
+Ex application:
+* PCA (find directions of maximum variance), helps analyze exploding / vanishing gradients and Eigenfaces (face recognition) uses eigenvectors. 
 
 ## Optimization
 
